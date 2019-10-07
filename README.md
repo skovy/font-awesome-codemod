@@ -5,12 +5,22 @@ This repository contains a codemod script to use with [jscodeshift](https://gith
 ## :hammer_and_wrench: Setup & Run
 
 ```sh
-yarn add -g jscodeshift
-git clone https://github.com/skovy/font-awesome-codemod
+# Globally install (or consider using npx)
+yarn global add jscodeshift
+
+# Clone the transform (or try https://github.com/skovy/font-awesome-codemod)
+git clone git@github.com:skovy/font-awesome-codemod.git
+
+# Install the transform's dependencies
+cd font-awesome-codemod
+yarn install
+cd ..
+
+# Run the transform against your project
 jscodeshift -t font-awesome-codemod/transforms/implicit-icons-to-explicit-imports.ts <file>
 ```
 
-Use the `-d` option for a dry-run and use `-p` to print the output for comparison.
+Use the `-d` option for a dry-run and use `-p` to print the output for comparison. Also be sure to set the proper `--parser` and `--extensions` [jscodeshift options](https://github.com/facebook/jscodeshift#usage-cli) if not using vanilla JavaScript.
 
 ## :gear: Options:
 
