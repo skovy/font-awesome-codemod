@@ -12,8 +12,9 @@
     "@types/jest": "^24.0.18",
     "@types/jscodeshift": "^0.6.3",
     "jest": "^24.9.0",
-    "jscodeshift": "^0.6.4",
-    "ts-jest": "^24.1.0"
+    "jscodeshift": "https://github.com/skovy/jscodeshift#skovy/support-parsers-in-test-utils",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
     "change-case": "^3.1.0"
