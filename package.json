@@ -1,0 +1,8 @@
+{
+  "name": "font-awesome-codemods",
+  "version": "1.0.0",
+  "description": "Codemods to work with Font Awesome",
+  "main": "index.js",
+  "author": "Spencer Miskoviak <smiskoviak@gmail.com>",
+  "license": "MIT"
+}
