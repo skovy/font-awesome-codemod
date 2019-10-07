@@ -4,5 +4,18 @@
   "description": "Codemods to work with Font Awesome",
   "main": "index.js",
   "author": "Spencer Miskoviak <smiskoviak@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/jscodeshift": "^0.6.3",
+    "jest": "^24.9.0",
+    "jscodeshift": "^0.6.4",
+    "ts-jest": "^24.1.0"
+  },
+  "dependencies": {
+    "change-case": "^3.1.0"
+  }
 }
