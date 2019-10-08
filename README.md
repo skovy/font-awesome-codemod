@@ -1,4 +1,4 @@
-# font-awesome-codemod
+# font-awesome-codemod [![Build Status](https://travis-ci.org/skovy/font-awesome-codemod.svg?branch=master)](https://travis-ci.org/skovy/font-awesome-codemod)
 
 This repository contains a codemod script to use with [jscodeshift](https://github.com/facebook/jscodeshift).
 

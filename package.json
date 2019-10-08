@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "check:types": "tsc --noEmit"
+    "check:types": "tsc --noEmit",
+    "check:formatting": "yarn prettier --check \"transforms/**\""
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
