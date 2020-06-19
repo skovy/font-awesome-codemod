@@ -15,7 +15,7 @@ const TEST_FIXTURES = [
   "pro-duplicate-names-from-multiple-packages"
 ] as const;
 
-type TestFixtures = (typeof TEST_FIXTURES)[number];
+type TestFixtures = typeof TEST_FIXTURES[number];
 type TestFixtureOptions = { [Test in TestFixtures]?: TransformOptions };
 
 // All options are optional, but some of the fixtures require specific options.

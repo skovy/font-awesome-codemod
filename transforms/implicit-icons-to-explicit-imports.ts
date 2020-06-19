@@ -40,7 +40,7 @@ const PACKAGES = {
   }
 };
 
-type FontStyle = keyof (typeof PACKAGES)["pro"];
+type FontStyle = keyof typeof PACKAGES["pro"];
 
 /**
  * Options accepted by this transform to customize the behavior.
